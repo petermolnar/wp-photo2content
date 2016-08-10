@@ -54,9 +54,6 @@ function on_transition ( $new_status, $old_status, $post ) {
 	content_from_photo ( $post, $thid );
 	geo_from_photo ( $post, $thid );
 
-
-	// \do_action( 'wp_photo2content',  )
-
 }
 
 
